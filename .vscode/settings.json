@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/61c966cc-8f4f-4e7a-9efa-3bd8b6351798/microsoft.web/sites/subscriptions/61c966cc-8f4f-4e7a-9efa-3bd8b6351798/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/todolist-test-1",
+    "appService.deploySubpath": "client"
+}
