@@ -1,13 +1,17 @@
 import React, {Fragment} from 'react'; 
 import '../App.css';   
+import { useIsAuthenticated } from "@azure/msal-react"; 
+import {Navbart} from "../components/Navbart";
 
 //components 
 import InputTodo from  "../components/InputTodo"
 import ListTodos from "../components/ListTodos";
 
-const todolist = () => {
-  return ( 
-   <div>  
+const Todolist = () => { 
+  const isAuthenticated = useIsAuthenticated();
+  return (  
+   <div> 
+       <Navbart/>  
        <Fragment> 
         <div className="container"> 
           <InputTodo /> 
@@ -18,4 +22,4 @@ const todolist = () => {
   )
 }
 
-export default todolist
+export default Todolist
