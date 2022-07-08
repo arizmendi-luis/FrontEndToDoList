@@ -6,7 +6,10 @@
 .pnp.js
 
 # testing
-/coverage
+/coverage 
+
+#prototyping 
+/OldCode
 
 # production
 /build

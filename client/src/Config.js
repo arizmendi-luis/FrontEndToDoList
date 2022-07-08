@@ -1,9 +1,0 @@
-export const config = { 
-    appId: 'e012f4dd-5515-4772-a765-f6a382b2f97f', 
-    redirecturi: /*'https://todolist-test-1.azurewebsites.net' ||*/ 'http://localhost:3000/PERNList', 
-    scopes: [
-        'user.read' 
-
-    ],  
-    authority: 'https://login.microsoftonline.com/stronghandtools.com/'
-};
