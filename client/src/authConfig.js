@@ -2,7 +2,7 @@ export const msalConfig = {
   auth: {
     clientId: "e012f4dd-5515-4772-a765-f6a382b2f97f",
     authority: "https://login.microsoftonline.com/stronghandtools.com/", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
-    redirectUri: "https://todolist-test-1.azurewebsites.net",
+    redirectUri: /*"https://todolist-test-1.azurewebsites.net" ||*/ "http://localhost:3000" ,
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
