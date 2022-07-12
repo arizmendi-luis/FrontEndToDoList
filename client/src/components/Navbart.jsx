@@ -18,7 +18,7 @@ export const Navbart = () => {
                     <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/Option">Option</Nav.Link>
-                    <Nav.Link href="/Option">AnotherOption</Nav.Link>
+                    <Nav.Link href="/AnotherOption">AnotherOption</Nav.Link>
                 </Nav>
             </Container>
             {isAuthenticated ? <SignOutButton /> : <SignInButton />} 

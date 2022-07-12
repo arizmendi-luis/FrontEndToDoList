@@ -1,7 +1,7 @@
 import React from 'react'; 
 import '../App.css';   
 import logo from '../logo.svg' 
-import '../App.jsx';    
+import '../App.js';    
 import Navbar from "react-bootstrap/Navbar";
 import { SignInButton } from "../components/SignInButton";
 import { SignOutButton } from "../components/SignOutButton"; 

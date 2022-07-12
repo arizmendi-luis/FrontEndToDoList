@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import SignInPage from "./routes/SignInPage"; 
 import ToD from "./routes/ToD";
 import Pagetu from "./routes/Pagetu";
+import Pagethree from "./routes/Pagethree";
 
 function App() {
   return ( 
@@ -15,7 +16,8 @@ function App() {
         <Routes> 
           <Route exact path = "/" element = {<ToD/>}/>  
           <Route exact path = "/Home" element = {<ToD/>}/> 
-          <Route exact path = "/Option" element = {<Pagetu/>}/> 
+          <Route exact path = "/Option" element = {<Pagetu/>}/>  
+          <Route exact path = "/AnotherOption" element = {<Pagethree/>}/> 
         </Routes>
       </Router>
     </AuthenticatedTemplate> 
